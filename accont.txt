@@ -1,0 +1,5 @@
+MongDB
+Username:dalatfashion
+Passwords: dalatfashion@123
+Connection String: mongodb+srv://dalatfashion:dalatfashion@123@dalatfashion.a9gxd.mongodb.net/?retryWrites=true&w=majority&appName=dalatfashion
+
