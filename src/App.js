@@ -11,6 +11,7 @@ import Home from './Pages/Home';
 import Listing from './Pages/Listing';
 import Introduction from './Components/Introduction';
 import Register from './Pages/Register';
+import Cart from './Pages/Cart';
 
 const MyContext = createContext();
 
@@ -53,6 +54,7 @@ function App() {
           <Route path='/contact-dalatfashion' exact={true} element={<Contact />} />
           <Route path='/register' exact={true} element={<Register />} />
           <Route path='/introduct-dalatfashion' exact={true} element={<Introduction />} />
+          <Route path='/cart' exact={true} element={<Cart />} />
         </Routes>
         {isHeaderFooterShow === true && <Footer />}
 
