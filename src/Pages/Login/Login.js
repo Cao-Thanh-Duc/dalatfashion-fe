@@ -18,7 +18,6 @@ export default function Login() {
     register,
     handleSubmit,
     formState: { errors },
-    getValues,
   } = useForm({
     resolver: zodResolver(LoginSchema),
     defaultValues: {
@@ -41,6 +40,7 @@ export default function Login() {
         setUserToLS(response.user);
         navigate('/');
         toast.success('Đăng nhập thành công! 🚀');
+        window.location.reload();
       },
       onError: () => {
         toast.error('Đăng nhập thất bại!');
@@ -75,9 +75,9 @@ export default function Login() {
             <button type='submit' className='btn-login' disabled={isLoading}>
               {isLoading ? 'Đang xử lý...' : 'Đăng nhập'}
             </button>
-            <a href='#' className='forgot-password'>
+            <Link href='#' className='forgot-password'>
               Quên mật khẩu?
-            </a>
+            </Link>
           </div>
           <Link to='/register'>
             <p className='form-footer'>Bạn chưa có tài khoản?</p>

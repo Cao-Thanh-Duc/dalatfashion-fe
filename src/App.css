@@ -761,7 +761,7 @@ nav .navPart2 {
 .productItem .actions {
   position: absolute;
   top: 20px;
-  right: -100%;
+  right: 10px;
   z-index: 1000;
   display: flex;
   flex-direction: column;
@@ -799,12 +799,10 @@ nav .navPart2 {
 .productItem {
   width: 100%;
   height: auto;
-  border: 1px solid rgba(0, 0, 0, 0.1);
 }
 .productItem {
   width: 100%;
   height: auto;
-  border: 1px solid rgba(0, 0, 0, 0.1);
   cursor: pointer;
   position: relative;
 }
@@ -1266,46 +1264,22 @@ footer .linksWrap .col:last-child {
   background: #f6f7fd;
   padding: 15px 25px;
 }
-.product_Listing_Page
-  .productListing
-  .content-right
-  .showBy
-  .btnWrapper
-  button {
+.product_Listing_Page .productListing .content-right .showBy .btnWrapper button {
   min-width: 35px !important;
   height: 35px !important;
   width: 35px !important;
   border-radius: 50% !important;
   color: #000;
 }
-.product_Listing_Page
-  .productListing
-  .content-right
-  .showBy
-  .btnWrapper
-  button
-  svg {
+.product_Listing_Page .productListing .content-right .showBy .btnWrapper button svg {
   color: #000;
   font-size: 18px !important;
   opacity: 0.3;
 }
-.product_Listing_Page
-  .productListing
-  .content-right
-  .showBy
-  .btnWrapper
-  button
-  .act
-  svg {
+.product_Listing_Page .productListing .content-right .showBy .btnWrapper button .act svg {
   opacity: 1 !important;
 }
-.product_Listing_Page
-  .productListing
-  .content-right
-  .showBy
-  .btnWrapper
-  button:hover
-  svg {
+.product_Listing_Page .productListing .content-right .showBy .btnWrapper button:hover svg {
   opacity: 1;
 }
 .productListing {
